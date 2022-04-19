@@ -81,3 +81,75 @@ SEO优化
 
 伪链接
 
+## CSS基础
+
+### CSS引入
+
+内联样式
+
+```html
+<h1 style="color: red; font-size: 100px;">haah我是小当家</h1>
+```
+
+文档样式表
+
+```html
+<style>
+  h1 {
+  	color: yellow;
+  }
+</style>
+<!-- -------------------- -->
+<body>
+  <h1>haah我是小当家</h1>
+</body>
+```
+
+外部样式表：从外部引入一个css文件
+
+```html
+<link rel="stylesheet" href="../css/base.css">
+<!-- -------------------- -->
+<style>
+  @import url("../css/base.css");
+</style>
+```
+
+### CSS选择器
+
+并集选择器
+
+通配符
+
+元素（标签）选择器
+
+类选择器
+
+id选择器
+
+后代选择器
+
+## 文字相关CSS属性
+
+`text-decoration`
+
+`text-transform`
+
+`text-indent`：第一行缩进
+
+`font-size`
+
+`text-align`：最后一行不会居中
+
+`font-family`：在本地查找
+
+`font-weight`
+
+`font-style`
+
+`font-variant`
+
+`line-height`
+
+<img src="D:\web\note\HTMLCSS\image-20220419215154735.png" alt="image-20220419215154735" style="zoom:80%;" />
+
